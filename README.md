@@ -1,18 +1,18 @@
-# Splunk Alert Action that allows you to send messages to MQTT broker
+## Splunk Alert Action that allows you to send messages to MQTT broker
 
-Author: Dmytro Sobolta
-Version: 1.0.0
+### Author: Dmytro Sobolta
+### Version: 1.0.0
 
-Updates history:
+### Updates history:
 [1.0.0]
 - Initial release
 
-Installation:
+### Installation:
 - Install this TA on your Search Head
 - Navigate to the configuration page of this add-on and configure connection to your MQTT broker. Strongly recommend you to use password authentication on your MQTT broker. It is mandatory to use password authentication in this add-on.
 - Click Save
 
-Alert action configuration:
+### Alert action configuration:
 - Create new alert or edit an existing one
 - Find the "Trigger Action" menu and click to "Add Actions"
 - Select "Send to MQTT"
